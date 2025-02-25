@@ -1,4 +1,4 @@
-# Hand Drawing App
+# Air Draw
 
 A web application that allows users to draw in the air using hand gestures, captured by their webcam. This app uses computer vision for hand tracking, real-time drawing capabilities, and AI-powered analysis of drawings.
 

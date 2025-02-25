@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for, session, flash
+from flask import Flask, abort, render_template, request, redirect, url_for, session, flash
 from flask_socketio import SocketIO
 import cv2
 import os
@@ -256,7 +256,7 @@ def drawing_detail(drawing_id):
     try:
         drawing = db.get_drawing(drawing_id)
         if drawing is None:
-            return "Drawing not found", 404
+            abort(404)
 
         # Make sure users can only see their own drawings
         if drawing['user_id'] != user['id']:
@@ -376,6 +376,12 @@ def handle_save_drawing(data):
             'status': 'error',
             'message': 'Failed to process drawing'
         }, room=request.sid)
+
+
+@app.errorhandler(404)
+def page_not_found(e):
+    """Custom 404 error page handler"""
+    return render_template('404.html'), 404
 
 
 if __name__ == '__main__':

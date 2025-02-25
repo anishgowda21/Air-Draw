@@ -2,6 +2,8 @@
 
 A web application that allows users to draw in the air using hand gestures, captured by their webcam. This app uses computer vision for hand tracking, real-time drawing capabilities, and AI-powered analysis of drawings.
 
+You can see a live demo [Here]() but most propbaly it will be choppy as its a free server. For better experiance host it yourself.
+
 ## Features
 
 - ✨ **Air Drawing**: Draw using only hand gestures (thumb and index finger pinch)

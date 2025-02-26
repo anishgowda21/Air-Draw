@@ -35,7 +35,7 @@ The application uses:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/hand-drawing-app.git
+   git clone https://github.com/anishgowda21/Air-Draw.git
    cd hand-drawing-app
    ```
 

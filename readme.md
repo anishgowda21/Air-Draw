@@ -89,8 +89,7 @@ The application uses:
 
 - **This is a demonstration application** and uses SQLite for data storage
 - **SQLite database may be reset**: If you cannot login, simply register again with the same username
-- For a production deployment, consider using a more robust database like PostgreSQL
-- Use HTTPS in production to ensure secure transfer of data
+
 
 ## Technologies Used
 
@@ -99,9 +98,6 @@ The application uses:
 - **AI**: Google Gemini API for image analysis
 - **Security**: Cryptography, PBKDF2, Fernet encryption
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Libraries
 

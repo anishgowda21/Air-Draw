@@ -36,7 +36,7 @@ The application uses:
 
    ```bash
    git clone https://github.com/anishgowda21/Air-Draw.git
-   cd hand-drawing-app
+   cd Air-Draw
    ```
 
 2. Create and activate a virtual environment:
